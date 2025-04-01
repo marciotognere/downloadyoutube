@@ -1,0 +1,11 @@
+PARA RECOMPILAR:
+
+Apagar todos os arquivos com excessão:
+LEIA-ME.txt
+TognereTube.py
+yt-dlp.exe
+
+Executar no caminho do arquivo:
+pyinstaller --onefile --noconsole TognereTube.py
+
+Será gerado o TognereTube.exe dentro da pasta dist, mas ele TEM QUE RODAR ao lado do yt-dlp.exe. Mova o arquivo para a pasta raiz e execute.
