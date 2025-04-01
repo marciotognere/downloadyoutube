@@ -9,3 +9,7 @@ Executar no caminho do arquivo:
 pyinstaller --onefile --noconsole TognereTube.py
 
 Será gerado o TognereTube.exe dentro da pasta dist, mas ele TEM QUE RODAR ao lado do yt-dlp.exe. Mova o arquivo para a pasta raiz e execute.
+
+Caso ocorra erro ao fazer o download dos vídeos:
+Acessar: https://github.com/yt-dlp/yt-dlp/releases/
+Copiar o arquivo yt-dlp.exe do release mais recente e substituir pelo do projeto.
